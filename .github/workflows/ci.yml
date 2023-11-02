@@ -20,7 +20,7 @@ jobs:
       # uses - we are specifiying an action to run as part of our step. actions are custom applications that perform complex but frequently repeated task. this action will checkout our repository code to the runner
       - uses: actions/checkout@v3
 
-      # this step will install composer dependencies (composer is a php package manager)
+      # this step will install composer dependencies (composer is a php package manager) hey
       - uses: php-actions/composer@v6
 
       # this step will run our phpunit tests
